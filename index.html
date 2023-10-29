@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reciclar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de usuários</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                     <br>
+                    <p>Selecione o tipo de material que deseja reciclar:</p>
+
+                    <input type="radio" name="plastico" value="plastico" required>
+                    <label for="plastico">Plástico</label>
+
+                    <input type="radio" name="papel" value="papel" required>
+                    <label for="papel">Papel</label>
+
+                    <input type="radio" name="vidro" value="vidro" required>
+                    <label for="vidro">Vidro</label>
+
+                    <input type="radio" name="metal" value="metal" required>
+                    <label for="metal">Metal</label>
+
+                    <input type="radio" name="todos" value="todos" required>
+                    <label for="todos">Todos</label>
+                    <br><br>
+                    <p>Selecione o peso que mais se aproxima:</p>
+
+                    <input type="radio" name="ate5quilos" value="ate5quilos" required>
+                    <label for="ate5quilos">Até 5 quilos</label>
+                    
+                    <input type="radio" name="ate10quilos" value="ate10quilos" required>
+                    <label for="ate10quilos">Até 10 quilos</label>
+                    
+                    <input type="radio" name="maisde10quilos" value="maisde10quilos" required>
+                    <label for="maisde10quilos">Mais de 10 quilos</label>
+                    <br><br>
+
+                    <label for="data_coleta"><b>Data da coleta:</b></label>
+                    <input type="date" name="data_coleta" id="data_coleta" required>
+                    <br><br>
+
+                    <div class="inputBox">
+                        
+                        <label for="Bairro">Bairro</label>
+                        <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                        
+                        <br><br>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                        
+                        <br><br>
+                        <label for="endereco">Endereço</label>
+                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                        
+                        
+                            
+                    </div>
+                    <br><br>
+                </div>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
